@@ -1,0 +1,30 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.board {
+  background-color: blue;
+  display: grid;
+  height: 80vh;
+  grid-template-columns: repeat(9, minmax(4rem, 1fr));
+  grid-gap: 1rem;
+}
+
+.board > div {
+  background: #ede7f6;
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
+
+.board > .unactivated-tile {
+  background: #ede7f6;
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
+
+.board > .activated-tile {
+  background: #6e4aa5;
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
